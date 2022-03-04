@@ -1,0 +1,143 @@
+.labelPrincipalMenu{
+  color: black;
+  font-size: 20px;
+}
+.labelPrincipal{
+  color: white;
+  font-size: 20px;
+}
+
+
+.ctnPastel{
+    background-image: url("./assets/img/astronomy-gc46a45629_1920.jpg");
+}
+
+.menuppal{
+    background-color: darksalmon;
+}
+.Title{
+    color: black;
+    size: 20px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/astronomy-gc46a45629_1920.jpg");
+
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('./assets/img/astronomy-gc46a45629_1920.jpg');
+  }
+  
+  .bgimg {
+    background-image: url('./assets/img/astronomy-gc46a45629_1920.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: -9px;
+    right: 572px;
+   
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+   
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+  .aFondoObs{
+    color: white;
+    font-weight: 300;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url('./assets/img/astronomy-gc46a45629_1920.jpg');
+  }
+  
+  
+    ul.breadcrumb {
+   margin: 0px;
+    list-style: none;
+    background-color: rgb(66, 55, 138);
+    padding: 28px 16px;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: rgb(114, 5, 114);
+    text-decoration: underline;
+  }
+
