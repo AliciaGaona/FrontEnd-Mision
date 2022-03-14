@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+}
+
+.logo{
+    padding-right: 385px;
+    padding-left: 100px;
+}
+.menuppal{
+  background-color: rgba(255, 255, 255, 0.6);
+  display: contents;
+}
+
+.titulosMenuSinHover{
+    color: gray!important;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+    text-decoration: solid;
+}
+
+.titulosMenu{
+    color: gray!important;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 40px;
+    text-decoration: solid;
+    cursor: pointer;
+}
+.titulosMenu:hover{
+    color: rgb(59 92 209)!important;
+    }
+
+.txtMenuFooter{
+    color: rgb(59 92 209)!important;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+    text-decoration: solid;
+   
+}
+.titulosMenuFooter{
+    color: rgb(59 92 209)!important;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+    text-decoration: solid;
+    cursor: pointer;
+}
+.txtMenuFooterDark{
+    color: rgb(33 58 143)!important;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 40px;
+    text-decoration: solid;
+}
+.txtMenuFooterlight{
+    color: rgb(33 58 143)!important;
+    font-size: 20px;
+    text-decoration: solid;
+}
+.titulosMenuFooterDark{
+    color: rgb(33 58 143)!important;
+    font-size: 40px;
+    font-weight: bold;
+    padding-right: 40px;
+    text-decoration: solid;
+}
+footer{
+    background-color:  rgb(212 235 251);
+    flex: 0 0 auto;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+.vacunas{
+    height: 600;
+}
+
+.ctnFlotante{
+    position: absolute;
+    width: 1006px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    padding-top: 6px;
+    height: 104px;
+    margin-top: 546px;
+    margin-left: 37px;
+}
+
+card{
+    border-radius: 50%!important;
+}
