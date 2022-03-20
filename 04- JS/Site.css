@@ -1,0 +1,237 @@
+body{
+    background: linear-gradient(to bottom, rgb(204, 86, 65), white 80%, rgb(228, 177, 83));
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+}
+
+.ctnRed{
+    background-color: rgb(170, 45, 45);
+    width: 77%;
+    height: 273%;
+    border-radius: 7px;
+    box-shadow: 0 3px 15px rgb(94, 20, 20);
+    
+}
+
+.ctnRedTwo{
+    background-color: rgb(170, 45, 45);  
+    width: 77%;
+    height: 273%;
+    border-radius: 7px;
+    box-shadow:  0 3px 15px rgb(94, 20, 20);
+}
+
+.poke-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.poke-containerMoves{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.pokemon{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgb(29, 24, 24);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.pokemon .img-container{
+    background-color: #c15050;
+    border-radius: 31%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+.pokemon .img-container img{
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.pokemon .info{
+    margin-top: 20px;
+}
+
+.pokemon .number{
+    background-color: #d3cfcf;
+    border-radius: 20px;
+    font-size: 0.8em;
+    padding: 1px 10px;
+}
+
+
+.pokemon .name{
+    margin: 15px 0 7px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.ctnImg{
+    background-color: white;
+    border-color: #dfdbdb;
+    border-width: 17px;
+    border-style: solid;
+    border-radius: 21px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 11px;
+}
+.cntInfo{
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    border-width: 17px;
+    border-style: solid;
+    border-radius: 21px;
+    color: white;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 11px;
+}
+
+
+
+#circulo{
+    border-color: #ebdfdf;
+    border-width: 10px;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background: #49c3f3;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    box-shadow: 0 13px 28px rgb(22 20 20);
+    margin: 3px;padding-bottom: 5px;
+}
+ #circulo1{
+    height:26px;
+    width:26px;
+    background:#f71a1a;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    padding-right: 3px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+ #circulo2{
+    height:26px;
+    width:26px;
+    background:#f7e81e;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+ #circulo3{
+    height:26px;
+    width:26px;
+    background:#42f71e;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+.inputpokeName{
+background-color: rgb(226, 158, 32);
+color: white;
+}
+
+.btnRed{
+    border-color: red;
+    border-radius: 100%;
+    background-color: red;
+    width: 25%;
+    height: 140%;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    color: white;
+}
+
+#circuloBajo{
+    height:26px;
+    width:26px;
+    background:#49c3f3;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+ #circuloBajo1{
+    height: 17px;
+    width: 74px;
+    background:#42f71e;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    padding-right: 3px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+ #circuloBajo2{
+    height: 17px;
+    width: 74px;
+    background:#f7e81e;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    border-color: black;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+ #circuloBajo11{
+    height: 17px;
+    width: 74px;
+    background:#42f71e;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    padding-right: 3px;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+ #circuloBajo21{
+    height: 17px;
+    width: 74px;
+    background:#f7e81e;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    border-color: black;
+    box-shadow: 0 13px 28px rgb(8 7 7);
+    margin: 3px;
+ }
+
+ .infoApi{
+     background-color: #49c3f3;
+ }
+
+ .Abilities{
+    background-color: #0f471c;
+    color: white;
+    width: fit-content;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+ }
+ h1{
+     text-align: center;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     
+ }
+
+ .btn-danger{
+     border-radius: 100%;
+     box-shadow: 0 13px 28px rgb(8 7 7);
+ }

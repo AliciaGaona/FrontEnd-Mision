@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">  
+    <link rel="stylesheet" href="./Site.css"> 
+    <title id="Title">My Pokedex</title>
+</header>
+<style>
+    body{
+        background-color: azure!important;
+    }
+</style>
+<body>
+    <h1>My Pokedex</h1>
+    <div class="row">   
+        <div class="col-lg-6 col-md-12 col-sm-12  d-flex justify-content-center ctnRed">   
+            <div class="ctnRed">   
+                <div class="ctnHeader pt-5"> 
+                    <div class="row" style="padding-left:42px;">   
+                        <div id="circulo"></div>
+                        <div id="circulo1" ></div>
+                        <div id="circulo2" ></div>
+                        <div id="circulo3" ></div>
+                    </div>  
+                   
+                </div>
+               <div class="d-flex justify-content-center ctnImg pt-3">  
+                   <div class="row">    
+                        <div class="col-12">
+                            <img src="./assets/img/pokebola.png" alt="Pokemon" id="pokeImg" width="150px">  
+                        </div>
+                   </div>  
+                   <div class="row">
+                       <div class="col-12"><label id="pokeLabelId"></label></div>
+                       <div class="col-12"><label id="pokeLabelName"></label></div>
+                       <div class="col-12"><label id="pokeLabelExperience"></label></div>
+                   </div>                  
+               </div>
+               <div class="ctnBajo pt-3" > 
+                <div class="row" style="padding-left:42px;">                      
+                    <div id="circuloBajo"></div>
+                    <div id="circuloBajo1" ></div>
+                    <div id="circuloBajo2" ></div>       
+                </div>                
+            </div>
+               <div class="ctnabajo pt-3 pb-3">  
+                   <div class="row" style="padding-left:42px;">
+                    <div class="col-lg-5 col-md-8 col-sm-8 d-flex justify-content-center "> 
+                        <input class="inputpokeName" type="text" placeholder="Busca tu pokemon" id="pokeName" name="pokeName">
+                      </div>
+                      <div class="col-lg-7 col-md-4 col-sm-4"> 
+                        <button class="btnRed" onclick="fetchPokemon();fetchPokemonStats();activarBtnMoves();">Go</button>
+                      </div>
+                   </div>  
+            </div> 
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center ctnRedTwo">   
+            <div class="ctnRedTwo"> 
+                  <div class="cntInfo"> 
+                    <label>Type:</label>
+                    <div class="row d-flex justify-content-center" id="PokemonType"></div>
+                    <label>Abilities:</label>
+                    <div class="row d-flex justify-content-center" id="pokemonAbilities"></div>
+                    <label>Moves:</label>
+                    <div class="row d-flex justify-content-center" id="pokemonMoves"></div>
+                    <div class="row d-flex justify-content-center" id="pokemonMoves1"></div>
+                    <hr>
+                    <label style="font-weight: bold;">STATS </label><br>                  
+                    <div class="row d-flex justify-content-center" id="PokemonNameStats"></div>                         
+                  </div>
+                  <div class="ctnBajo pt-3" > 
+                    <div class="row" style="padding-left:42px;">                      
+                        <div id="circuloBajo11" ></div>
+                        <div id="circuloBajo21" ></div>           
+                    </div>                    
+                </div>             
+                  <div class="cntInfo pt-5 pb-5 d-flex justify-content-center"> 
+                      <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12"> 
+                                See all moves
+                            </div>
+                          <div class="col-lg-6 col-md-12 col-sm-12">   
+                            <button id="fetchPokemonMoves" class="btn btn-danger" onclick="fetchPokemonMoves()" disabled>Go</button>                         
+                          </div>
+                      </div>
+                      <div class="row"> 
+                        <div class="col-lg-6 col-md-12 col-sm-12"> 
+                            Pokemon list
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">        
+                            <a class="btn btn-danger" href="./catalogo.html" target="_blank">Go</a>    
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>  <script src="./poquedex.js"></script>
+    <script src="./moves.js"></script> </footer>
+</html>
